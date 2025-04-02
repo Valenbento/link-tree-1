@@ -18,7 +18,7 @@
 }
 body{
     background-color: var(--black);
-    border: 1px solid red;
+    
 
     height: 100vh;
     display: flex;
@@ -46,7 +46,7 @@ h1{
 }
 
 strong{
-    color:var(--neon-green)
+    color:var(--neon-green);
     font-size: 14px;
     
 }
@@ -64,11 +64,12 @@ a{
     background-color: var(--grey);
 margin-bottom: 16px;
 padding: 12px;
-color: var(--white)
-text-decoration: none;
+color: var(--white);
+text-decoration:none;
+
 font-size:14px;
 font-weight: 700;
-border: radius 8px;
+border-radius:  8px;
 }
 
 a:hover{
